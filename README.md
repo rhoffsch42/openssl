@@ -1,2 +1,2 @@
 # openssl
-personnql GUI
+Personnal GUI to manage SSL certificates
