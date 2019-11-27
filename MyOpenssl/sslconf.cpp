@@ -24,21 +24,12 @@ Sslconf::Sslconf()
     this->c = create_qtext("FR");
     this->st = create_qtext("France");
     this->l = create_qtext("Paris");
-    this->o = create_qtext("Ecritel");
+    this->o = create_qtext("Google");
     this->ou = create_qtext("Service Informatique");
-    this->cn = create_qtext("www.ecritel.net");
-    this->mail = create_qtext("ssl.admin@ecritel.net");
-    this->DNScontainer = new QTextEdit("sous-domaine.truc.com");
+    this->cn = create_qtext("www.google.fr");
+    this->mail = create_qtext("ssl.admin@google.fr");
+    this->DNScontainer = new QTextEdit("sous-domaine.google.fr");
     this->DNScontainer->setStyleSheet(CONTENT_COLOR);
-    this->DNScontainer->append("Create CSR OK");
-    this->DNScontainer->append("Autosign OK");
-    this->DNScontainer->append("Create CAcert OK");
-    this->DNScontainer->append("Remove key passphrase OK");
-    this->DNScontainer->append("Create bundles: pfx OK");
-    this->DNScontainer->append("pfx xtract cert");
-    this->DNScontainer->append("pfx xtract key");
-    this->DNScontainer->append("CA sign");
-    this->DNScontainer->append("Delete OK");
 
     QLabel  *c_title = create_qlabel("Country Name (2 letter code)");
     QLabel  *st_title = create_qlabel("State or Province Name (full name)");
